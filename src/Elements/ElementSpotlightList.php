@@ -20,6 +20,8 @@ class ElementSpotlightList extends BaseElement
 
   private static $controller_class = ElementSpotlightListController::class;
 
+  private static $inline_editable = false;
+
   private static $db = [
     'Intro' => 'Text',
   ];

@@ -50,8 +50,6 @@ class Spotlight extends DataObject
     $fields->replaceField(
       'Title',
       TextCheckboxGroupField::create(
-        TextField::create('Title', 'Title (displayed if checked)'),
-        CheckboxField::create('ShowTitle', 'Displayed')
       )
       ->setName('TitleAndDisplayed')
     );
